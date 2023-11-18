@@ -25,9 +25,9 @@ for(var i=0; i<arreglo.length;i++)
 console.log("despues del for");
 
 console.log("antes del for-in");
-for(index in arreglo)
+for(index of arreglo)
 {
-    console.log(arreglo[index]);
+    console.log(index);
 }
 console.log("despues del for-in");
 
